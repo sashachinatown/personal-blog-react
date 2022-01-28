@@ -9,13 +9,14 @@
   font-size: 17px;
   border: none;
   cursor: pointer;
+  background-color: transparent;
 }
 .app-list-item button:focus {
     box-shadow: none;
     outline: none;
 }
 .app-list-item .btn-star {
-    color: #FFD700;
+    color: #aeaeae;
 }
 .app-list-item .btn-trash {
     color: red;
@@ -45,10 +46,10 @@
     transform: translateX(0px);
 }
 
-.app-list-item.important .app-list-item-label {
+/* .app-list-item.important .app-list-item-label {
   color: #FFD700;
-}
+} */
 
 .app-list-item.important .btn-star {
-    color: #aeaeae;
+    color: #FFD700;
 }
